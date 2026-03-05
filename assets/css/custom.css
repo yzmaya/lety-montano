@@ -1,0 +1,38 @@
+/* === Custom Cards === */
+
+.card-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 1.25em;
+}
+
+.card-icon {
+	flex: 0 0 auto;
+}
+
+.card-content {
+	flex: 1 1 0;
+	min-width: 0; /* LA CLAVE */
+}
+
+.green-card {
+	background: #ffffff;
+	color: #000000;
+	padding: 2em;
+    min-height: 14.5em;
+}
+
+.green-card-small {
+	background: #ffffff;
+	color: #000000;
+	padding: 3em;
+    min-height: 12em;
+}
+
+.green-card h3 {
+	color: #000000;
+}
+
+.green-card .icon {
+	color: #000000;
+}
